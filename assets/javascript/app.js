@@ -42,17 +42,22 @@ var submitButton = document.getElementById('submit');
 var strtBtn = document.querySelector('#start-button').addEventListener('click', displayQuiz);
 
 
+//to display the quiz to users 
 function displayQuiz() {
    
      
-var output = [];
+var output = []; //to store into the html output
     
+
+    //passed a forEach JS Method to access array of question
     questions.forEach((currentQuestion, questionNumber) => {
 
-    const answer = [];
+
+    const answer = []; //to store the answers 
 
         for(letter in currentQuestion.answers) {
             answer.push(
+                //adding an HTML radio button
             `<label>
             <input type="radio" name="question${questionNumber}" value="${letter}">
                 ${letter} : ${currentQuestion.answers[letter]}
@@ -69,7 +74,7 @@ var output = [];
         
     );
         
-    
+    //we have to convert array into string before displaying in html
     quizContainer.innerHTML = output.join('');
     
     }

@@ -2,33 +2,71 @@
 
     width: 900px;
     margin: auto;
-    background: pink;
+    background: rgba(218, 136, 70, 0.199);
     height: 550px;
     margin-top: 120px;
     border-radius: 1em;
+    color: beige;
+    
     
 }
+
+#holds-quiz {
+
+    width: 800px;
+    margin: auto;
+    text-align: center;
+    letter-spacing: 5px;;
+}
+
+
+
 
 #main-game {
 
     text-align: center;
     letter-spacing: 1em;
-    font-family: cursive;
+    font-family: 'ZCOOL XiaoWei', serif;
     font-weight: bold;
     font-size: 20px;
     padding-top: 20px;
-    
+    color:red;
     
 }
 
-#main-button {
-    height: 10em;
-    width: 20em;
+#start-button {
+    height: 3em;
+    width: 5em;
     border: black;
     border-radius: 1em;
-    position: absolute;
-    margin-left: 350px;
+    position: fixed;
+    margin-left: 430px;
+    margin-top: 20px;
 
    
 
+}
+
+#submit {
+
+    height: 3em;
+    width: 5em;
+    border: black;
+    border-radius: 1em;
+    position: fixed;
+    margin-left: 430px;
+    margin-top: 120px;
+    
+ 
+}
+
+#results {
+    height: 3em;
+    width: 5em;
+    border: black;
+    border-radius: 1em;
+    position: fixed;
+    margin-left: 430px;
+    margin-top: 70px;
+    
 }
