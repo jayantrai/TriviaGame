@@ -7,15 +7,27 @@
     <title>Trivia Game</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-<body background="assets/images/wallpaper.jpg">
-    <header class="main-head" id="main-game">
+<body id="body" background="assets/images/wall-paper.jpg" >
+
+<main id="main-content">
+        <header class="main-head" id="main-game">
         <h1>Totally Trivial Trivia</h1>
-    </header>
+        </header>
 
-    <div class="button" id="btn">
-        <button class="start" id="play">Start</button>
-    </div>
+    <!-- div to hold our quiz -->
+    <div id="holds-quiz"></div> 
 
+    <button id="start-button" type="button">START</button>
+
+    <!-- div to store results -->
+    <div id="results"></div> 
+    
+    <button id="submit" type="button">Submit</button>
+    
+   
+</main>
+    
+<script src="assets/javascript/app.js"></script>
 
 </body>
 </html>
